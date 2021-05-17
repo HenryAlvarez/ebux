@@ -1,0 +1,14 @@
+@import '../../assets/styles/partials';
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @include media(md-min) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.sectionTwo {
+    background-color: $text-color-dark;
+}

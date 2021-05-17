@@ -1,0 +1,55 @@
+@import './assets/styles/partials';
+
+body.dark-mode {
+    background-color: #0b0b14;
+    color: $background-color-light;
+
+    h3 {
+        color: $text-color-dark;
+    }
+
+    p {
+      color: $text-color-dark;
+    }
+
+    .title {
+      color: $primary-color-dark;
+    }
+
+    .logo {
+      .slogan {
+        color: $secondary-color-dark;
+      }
+    }
+
+    .section {
+      .title {
+        background-color: #fff;
+        max-width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+    }
+
+    .sectionTwo{
+      background-color: #0d0d18;
+    }
+
+    .card {
+      background: #101020;
+      .contentIcon {
+        .icon {
+            color: $text-color-dark;
+        }
+      }
+      .line {
+        background-color: #fff;
+      }
+      h3 {
+        color: $primary-color-dark;
+      }
+      p {
+        color: $secondary-color-dark;
+      }
+    }
+  }

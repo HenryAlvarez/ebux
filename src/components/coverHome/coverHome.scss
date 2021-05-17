@@ -1,0 +1,27 @@
+@import '../../assets/styles/partials';
+
+.cover-home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .content {
+        min-width: 320px;
+        max-width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        .coverIlustration {
+            width: 100%;
+            max-width: 320px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .text-cover {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+}

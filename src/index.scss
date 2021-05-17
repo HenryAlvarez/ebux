@@ -1,0 +1,67 @@
+@import './assets/styles/partials';
+@import './DarkMode.scss';
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: $background-color-light;
+  color: $background-color-dark;
+  font-family: $regular;
+}
+
+
+h3 {
+  font-family: $regularItalic;
+  color: $text-color-light;
+  font-size: 16px;
+
+  @include media(xl-min) {
+    font-size: 18px;
+  }
+}
+
+p {
+  font-family: $regularItalic;
+  color: $text-color-light;
+  font-family: $regular;
+  font-size: 14px;
+  @include media(xl-min) {
+    font-size: 16px;
+  }
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.title {
+  color: $secondary-color-light;
+  font-family: $bold;
+  font-size: 22px;
+
+  @include media(xl-min) {
+    font-size: 25px;
+  }
+}
+
+
+.btnPrimary {
+  background-color: $primary-color-dark !important;
+  color: white;
+}

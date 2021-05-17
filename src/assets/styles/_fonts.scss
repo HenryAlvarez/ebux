@@ -1,0 +1,32 @@
+@import './variables';
+
+@font-face { 
+    font-family: $regular; 
+    font-style: normal; 
+    font-weight: 400; 
+    src: url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+    src: local('Arvo', serif), local('Arvo Regular'), url('../fonts/Arvo-Regular.ttf') format('truetype');
+    font-display: swap; 
+    unicode-range: U+000-5FF; /* Latin glyphs */
+  }
+
+
+@font-face { 
+    font-family: $regularItalic; 
+    font-style: italic; 
+    font-weight: 400; 
+    src: url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+    src: local('Arvo'), local('Arvo Italic'), url('../fonts/Arvo-Italic.ttf') format('truetype');
+    font-display: swap; 
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face { 
+    font-family: $bold; 
+    font-style: normal; 
+    font-weight: 700;
+    src: url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+    src: local('Arvo'), local('Arvo Bold'), url('../fonts/Arvo-Bold.ttf') format('truetype');
+    font-display: swap; 
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}

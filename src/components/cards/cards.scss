@@ -1,0 +1,57 @@
+@import '../../assets/styles/partials';
+
+.card {
+    background-color: $text-color-dark;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 20px;
+    height: 100%;
+    .contentIcon {
+        text-align: center;
+        .icon {
+            font-size: 50px;
+            color: $primary-color-dark;
+        }
+    }
+    
+
+    h3 {
+        text-align: center;
+        margin-top: 20px;
+        color: $secondary-color-light;
+    }
+
+    .line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 2px;
+        width: 100%;
+        background-color: $primary-color-dark;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
+
+.cardLeft {
+
+    .contentIcon{
+        text-align: start;
+    }
+    
+    h3 {
+        text-align: end;
+    }
+}
+
+.cardRight {
+    
+    .contentIcon {
+        text-align: end;
+    }
+    
+    h3 {
+        text-align: start;
+    }
+}

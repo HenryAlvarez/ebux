@@ -1,0 +1,16 @@
+@import '../../assets/styles/partials';
+
+.logo {
+    text-align: center;
+    .name {
+        font-size: 50px;
+        font-family: $bold;
+        color: $primary-color-dark;
+        line-height: 50px;
+    }
+    .slogan {
+        font-size: 16px;
+        color: $secondary-color-light;
+        font-family: $regularItalic;
+    }
+}
