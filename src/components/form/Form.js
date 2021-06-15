@@ -13,7 +13,7 @@ export const Form = () => {
 
     const handleClick = () => {
         var data = {
-          to_emailHost: [ email, 'cta430098@gmail.com'],
+          to_emailHost: ['sunuchenry10@gmail.com'],
           to_email:email,
           to_name:name,
           to_lastName: lastName
