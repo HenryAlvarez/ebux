@@ -4,6 +4,7 @@ import CoverHome from './components/coverHome/CoverHome';
 import ThemeChanger from './components/DarkMode/ThemeChanger';
 import { Section } from './components/section/Section';
 // import ThemeChanger from './components/DarkMode/ThemeChanger';
+import { Form } from './components/form/Form';
 
 function App() {
   return (
@@ -67,7 +68,7 @@ function App() {
           <h3>Somos Ebux</h3>
           <p>
             Te ayudamos a mejorar la  performance  de tus productos y servicios, a obtener mayor  presencia de mercado , a disminuir tus costos operativos y a incrementar las  ventas  de tu negocio.
-            </p>
+          </p>
         </div>
         <div className='col-12 col-md-6 mb-3 order-md-last'>
           <img src='https://images.unsplash.com/photo-1613909207039-6b173b755cc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=816&q=80' alt='nosotros' />
@@ -76,7 +77,7 @@ function App() {
           <h3>Qué hacemos</h3>
           <p>
             Trabajamos en la gestión y desarrollo de proyectos de diseño e innovación para empresas y organizaciones de diversos sectores económicos.
-            </p>
+          </p>
         </div>
       </Section>
       <Section
@@ -84,28 +85,29 @@ function App() {
         title={'Contactenos'}
         desc='Envie tu solicitud y te contactaremos' >
         <div className='col-12 col-lg-10 col-xl-8'>
-          <form>
-            <div class="row">
-              <div class="col-12 col-md-6 mb-3">
-                <input type="text" class="form-control" placeholder="Nombre" />
+          {/* <form>
+            <div className="row">
+              <div className="col-12 col-md-6 mb-3">
+                <input type="text" className="form-control" placeholder="Nombre" />
               </div>
-              <div class="col-12 col-md-6 mb-3">
-                <input type="text" class="form-control" placeholder="Apellido" />
+              <div className="col-12 col-md-6 mb-3">
+                <input type="text" className="form-control" placeholder="Apellido" />
               </div>
-              <div class="col-12 col-md-6 mb-3">
-                <input type="email" class="form-control" placeholder="Correo Electronico" />
+              <div className="col-12 col-md-6 mb-3">
+                <input type="email" className="form-control" placeholder="Correo Electronico" />
               </div>
-              <div class="col-12 col-md-6 mb-3">
-                <input type="number" class="form-control" placeholder="Numero de telefono" />
+              <div className="col-12 col-md-6 mb-3">
+                <input type="number" className="form-control" placeholder="Numero de telefono" />
               </div>
               <div className='col-12 mb-3'>
-                <textarea placeholder='Haz un comentario' class="form-control" rows="3"></textarea>
+                <textarea placeholder='Haz un comentario' className="form-control" rows="3"></textarea>
               </div>
             </div>
             <div className='d-flex justify-content-center'>
-            <button type="submit" class="btn btnPrimary mt-3">Enviar</button>
+              <button type="submit" className="btn btnPrimary mt-3">Enviar</button>
             </div>
-          </form>
+          </form> */}
+          <Form />
         </div>
       </Section>
     </>
