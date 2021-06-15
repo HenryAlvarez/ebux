@@ -22,6 +22,9 @@ export const Form = () => {
         emailjs.send(SERVICE_ID, TEMPLATE_ID, data, USER_ID).then(
           function (response) {
             console.log(response.status, response.text);
+            setEmail('')
+            setName('')
+            setLastName('')
           },
           function (err) {
             console.log(err);
@@ -33,13 +36,13 @@ export const Form = () => {
             
             <div className="row">
               <div className="col-12 col-md-6 mb-3">
-                <input type="text" className="form-control" placeholder="Nombre" onChange={event => setName(event.target.value)}/>
+                <input type="text" className="form-control" placeholder="Nombre" value={name} onChange={event => setName(event.target.value)}/>
               </div>
               <div className="col-12 col-md-6 mb-3">
-                <input type="text" className="form-control" placeholder="Apellido" onChange={event => setLastName(event.target.value)}/>
+                <input type="text" className="form-control" placeholder="Apellido" value={lastName} onChange={event => setLastName(event.target.value)}/>
               </div>
               <div className="col-12 mb-3">
-                <input type="email" className="form-control" placeholder="Correo Electronico" onChange={event => setEmail(event.target.value)}/>
+                <input type="email" className="form-control" placeholder="Correo Electronico" value={email} onChange={event => setEmail(event.target.value)}/>
               </div>
             </div>
             <div className='d-flex justify-content-center'>

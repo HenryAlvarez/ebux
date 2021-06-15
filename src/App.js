@@ -85,28 +85,6 @@ function App() {
         title={'Contactenos'}
         desc='Envie tu solicitud y te contactaremos' >
         <div className='col-12 col-lg-10 col-xl-8'>
-          {/* <form>
-            <div className="row">
-              <div className="col-12 col-md-6 mb-3">
-                <input type="text" className="form-control" placeholder="Nombre" />
-              </div>
-              <div className="col-12 col-md-6 mb-3">
-                <input type="text" className="form-control" placeholder="Apellido" />
-              </div>
-              <div className="col-12 col-md-6 mb-3">
-                <input type="email" className="form-control" placeholder="Correo Electronico" />
-              </div>
-              <div className="col-12 col-md-6 mb-3">
-                <input type="number" className="form-control" placeholder="Numero de telefono" />
-              </div>
-              <div className='col-12 mb-3'>
-                <textarea placeholder='Haz un comentario' className="form-control" rows="3"></textarea>
-              </div>
-            </div>
-            <div className='d-flex justify-content-center'>
-              <button type="submit" className="btn btnPrimary mt-3">Enviar</button>
-            </div>
-          </form> */}
           <Form />
         </div>
       </Section>
